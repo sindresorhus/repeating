@@ -1,0 +1,43 @@
+{
+  "name": "repeating",
+  "version": "0.0.0",
+  "description": "Repeat a string - fast",
+  "license": "MIT",
+  "repository": "sindresorhus/repeating",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "http://sindresorhus.com"
+  },
+  "bin": {
+    "repeating": "cli.js"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "bin",
+    "repeat",
+    "repeating",
+    "string",
+    "str",
+    "text",
+    "fill"
+  ],
+  "dependencies": {
+    "is-finite": "^1.0.0",
+    "meow": "^1.0.0"
+  },
+  "devDependencies": {
+    "ava": "0.0.4"
+  }
+}
