@@ -8,7 +8,7 @@ module.exports = function (str, n) {
 	}
 
 	if (n < 0 || !isFinite(n)) {
-		throw TypeError('Expected a finite positive number');
+		throw new TypeError('Expected a finite positive number');
 	}
 
 	var ret = '';
