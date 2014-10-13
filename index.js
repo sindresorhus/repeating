@@ -1,6 +1,5 @@
 'use strict';
 var isFinite = require('is-finite');
-var floor = Math.floor;
 
 module.exports = function (str, n) {
 	if (typeof str !== 'string') {
@@ -12,15 +11,9 @@ module.exports = function (str, n) {
 	}
 
 	var ret = '';
-
-	do {
-		if (n % 2) {
-			ret += str;
-		}
-
-		n = floor(n / 2);
-		str += str;
-	} while (n > 0);
-
-	return ret;
+  do {
+    if (n & 1) ret += str;
+    str += str;
+  } while (n = n >> 1);
+  return ret;
 };
