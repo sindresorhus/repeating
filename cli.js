@@ -19,4 +19,4 @@ if (typeof cli.input[1] !== 'number') {
 	process.exit(1);
 }
 
-console.log(repeating(cli.input[0], cli.input[1]));
+console.log(repeating(String(cli.input[0]), cli.input[1]));
