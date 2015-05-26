@@ -32,8 +32,7 @@
     "fill"
   ],
   "dependencies": {
-    "is-finite": "^1.0.0",
-    "meow": "^3.0.0"
+    "is-finite": "^1.0.0"
   },
   "devDependencies": {
     "ava": "0.0.4"
