@@ -27,10 +27,10 @@ $ npm install --global repeating
 $ repeating --help
 
   Usage
-    repeating <string> <count>
+    $ repeating <string> <count>
 
   Example
-    repeating 'unicorn ' 2
+    $ repeating 'unicorn ' 2
     unicorn unicorn 
 ```
 
