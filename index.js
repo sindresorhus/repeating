@@ -18,7 +18,7 @@ module.exports = function (str, n) {
 		}
 
 		str += str;
-	} while (n = n >> 1);
+	} while ((n >>= 1));
 
 	return ret;
 };
