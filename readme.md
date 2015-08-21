@@ -22,7 +22,7 @@ repeating('unicorn ', 100);
 
 ## Related
 
-- [repeat-cli](https://github.com/sindresorhus/repeat-cli) - CLI for this module
+- [repeating-cli](https://github.com/sindresorhus/repeating-cli) - CLI for this module
 
 
 ## License
