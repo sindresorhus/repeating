@@ -3,11 +3,11 @@ var isFinite = require('is-finite');
 
 module.exports = function (str, n) {
 	if (typeof str !== 'string') {
-		throw new TypeError('Expected a string as the first argument');
+		throw new TypeError('Expected `input` to be a string');
 	}
 
 	if (n < 0 || !isFinite(n)) {
-		throw new TypeError('Expected a finite positive number');
+		throw new TypeError('Expected `count` to be a positive finite number');
 	}
 
 	var ret = '';
