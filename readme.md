@@ -13,10 +13,10 @@ $ npm install --save repeating
 ## Usage
 
 ```js
-var repeating = require('repeating');
+const repeating = require('repeating');
 
 repeating('unicorn ', 100);
-//=> unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn 
+//=> 'unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn '
 ```
 
 
