@@ -1,9 +1,8 @@
-'use strict';
-var test = require('ava');
-var repeating = require('./');
+import test from 'ava';
+import repeating from './';
 
-test(function (t) {
-	t.assert(repeating('a', 5) === 'aaaaa');
-	t.assert(repeating('unicorn', 3) === 'unicornunicornunicorn');
+test(t => {
+	t.is(repeating('a', 5), 'aaaaa');
+	t.is(repeating('unicorn', 3), 'unicornunicornunicorn');
 	t.end();
 });
