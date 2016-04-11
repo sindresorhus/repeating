@@ -1,7 +1,7 @@
 import test from 'ava';
-import repeating from './';
+import m from './';
 
 test(t => {
-	t.is(repeating('a', 5), 'aaaaa');
-	t.is(repeating('unicorn', 3), 'unicornunicornunicorn');
+	t.is(m('a', 5), 'aaaaa');
+	t.is(m('unicorn', 3), 'unicornunicornunicorn');
 });

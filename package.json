@@ -20,11 +20,12 @@
   ],
   "keywords": [
     "repeat",
-    "repeating",
     "string",
+    "repeating",
     "str",
     "text",
-    "fill"
+    "fill",
+    "pad"
   ],
   "dependencies": {
     "is-finite": "^1.0.0"
