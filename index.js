@@ -1,16 +1,16 @@
 'use strict';
-var isFinite = require('is-finite');
+module.exports = (n, str) => {
+	str = str === undefined ? ' ' : str;
 
-module.exports = function (str, n) {
 	if (typeof str !== 'string') {
-		throw new TypeError('Expected `input` to be a string');
+		throw new TypeError(`Expected \`input\` to be a \`string\`, got \`${typeof str}\``);
 	}
 
-	if (n < 0 || !isFinite(n)) {
-		throw new TypeError('Expected `count` to be a positive finite number');
+	if (n < 0 || !Number.isFinite(n)) {
+		throw new TypeError(`Expected \`count\` to be a positive finite number, got \`${n}\``);
 	}
 
-	var ret = '';
+	let ret = '';
 
 	do {
 		if (n & 1) {
