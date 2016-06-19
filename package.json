@@ -1,6 +1,6 @@
 {
   "name": "repeating",
-  "version": "2.0.1",
+  "version": "3.0.0",
   "description": "Repeat a string - fast",
   "license": "MIT",
   "repository": "sindresorhus/repeating",
