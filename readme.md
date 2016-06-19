@@ -15,14 +15,36 @@ $ npm install --save repeating
 ```js
 const repeating = require('repeating');
 
-repeating('unicorn ', 100);
+repeating(5);
+//=> '     '
+
+repeating(100, 'unicorn ');
 //=> 'unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn unicorn '
 ```
+
+
+## API
+
+### repeating(count, [string])
+
+#### count
+
+Type: `number`
+
+Times the `string` should be repeated.
+
+#### string
+
+Type: `string`<br>
+Default: `' '`
+
+String to repeat.
 
 
 ## Related
 
 - [repeating-cli](https://github.com/sindresorhus/repeating-cli) - CLI for this module
+- [indent-string](https://github.com/sindresorhus/indent-string) - Indent each line in a string
 
 
 ## License
