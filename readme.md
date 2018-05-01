@@ -2,6 +2,8 @@
 
 > Repeat a string - fast
 
+**This module is moot now. Just use [`String#repeat()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/repeat).**
+
 
 ## Install
 
