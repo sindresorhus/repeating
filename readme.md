@@ -8,7 +8,7 @@
 ## Install
 
 ```
-$ npm install --save repeating
+$ npm install repeating
 ```
 
 
@@ -27,7 +27,7 @@ repeating(100, 'unicorn ');
 
 ## API
 
-### repeating(count, [string])
+### repeating(count, string?)
 
 #### count
 
@@ -49,6 +49,14 @@ String to repeat.
 - [indent-string](https://github.com/sindresorhus/indent-string) - Indent each line in a string
 
 
-## License
+---
 
-MIT © [Sindre Sorhus](https://sindresorhus.com)
+<div align="center">
+	<b>
+		<a href="https://tidelift.com/subscription/pkg/npm-repeating?utm_source=npm-repeating&utm_medium=referral&utm_campaign=readme">Get professional support for this package with a Tidelift subscription</a>
+	</b>
+	<br>
+	<sub>
+		Tidelift helps make open source sustainable for maintainers while giving companies<br>assurances about security, maintenance, and licensing for their dependencies.
+	</sub>
+</div>
