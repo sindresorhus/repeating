@@ -1,4 +1,4 @@
-# repeating [![Build Status](https://travis-ci.org/sindresorhus/repeating.svg?branch=master)](https://travis-ci.org/sindresorhus/repeating)
+# repeating
 
 > Repeat a string - fast
 
