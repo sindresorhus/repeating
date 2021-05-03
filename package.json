@@ -1,37 +1,36 @@
 {
-  "name": "repeating",
-  "version": "3.0.0",
-  "description": "Repeat a string - fast",
-  "license": "MIT",
-  "repository": "sindresorhus/repeating",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
-  },
-  "engines": {
-    "node": ">=4"
-  },
-  "scripts": {
-    "test": "xo && ava"
-  },
-  "files": [
-    "index.js"
-  ],
-  "keywords": [
-    "repeat",
-    "string",
-    "repeating",
-    "str",
-    "text",
-    "fill",
-    "pad"
-  ],
-  "devDependencies": {
-    "ava": "*",
-    "xo": "*"
-  },
-  "xo": {
-    "esnext": true
-  }
+	"name": "repeating",
+	"version": "3.0.0",
+	"description": "Repeat a string - fast",
+	"license": "MIT",
+	"repository": "sindresorhus/repeating",
+	"funding": "https://github.com/sponsors/sindresorhus",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "https://sindresorhus.com"
+	},
+	"type": "module",
+	"exports": "./index.js",
+	"engines": {
+		"node": ">=12"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"repeat",
+		"string",
+		"repeating",
+		"text",
+		"fill",
+		"pad"
+	],
+	"devDependencies": {
+		"ava": "^3.15.0",
+		"xo": "^0.39.1"
+	}
 }

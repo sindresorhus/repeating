@@ -1,24 +1,21 @@
-'use strict';
-module.exports = (n, str) => {
-	str = str === undefined ? ' ' : str;
-
-	if (typeof str !== 'string') {
-		throw new TypeError(`Expected \`input\` to be a \`string\`, got \`${typeof str}\``);
+export default function repeating(count, repeatString = ' ') {
+	if (typeof repeatString !== 'string') {
+		throw new TypeError(`Expected \`input\` to be a \`string\`, got \`${typeof repeatString}\``);
 	}
 
-	if (n < 0 || !Number.isFinite(n)) {
-		throw new TypeError(`Expected \`count\` to be a positive finite number, got \`${n}\``);
+	if (count < 0 || !Number.isFinite(count)) {
+		throw new TypeError(`Expected \`count\` to be a positive finite number, got \`${count}\``);
 	}
 
-	let ret = '';
+	let returnValue = '';
 
 	do {
-		if (n & 1) {
-			ret += str;
+		if (count & 1) {
+			returnValue += repeatString;
 		}
 
-		str += str;
-	} while ((n >>= 1));
+		repeatString += repeatString;
+	} while ((count >>= 1));
 
-	return ret;
-};
+	return returnValue;
+}
